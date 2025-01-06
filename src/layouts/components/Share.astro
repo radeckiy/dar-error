@@ -1,0 +1,25 @@
+---
+import config from "@/config/config.json";
+
+const { base_url } = config.site;
+const { title } = Astro.props;
+---
+
+<a
+  aria-label="facebook share button"
+  href={`https://t.me/share/url?url=${base_url}&text=${title}`}
+  target="_blank"
+  rel="noreferrer noopener"
+>
+  <svg
+    class="h-6 w-6"
+    viewBox="0 0 24 24"
+    stroke-width="2"
+    stroke="currentColor"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  ><path stroke="none" d="M0 0h24v24H0z"></path>
+    <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path>
+  </svg>
+</a>

@@ -1,0 +1,33 @@
+{
+  "site": {
+    "title": "DarError | Blog",
+    "base_url": "https://bookworm-light-astro.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "250",
+    "logo_height": "44"
+  },
+
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "DarError",
+    "meta_description": "DarError Blog"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2025"
+  },
+
+  "contactinfo": {
+    "address": "Russian Federation, Moscow",
+    "email": "darerror@gmail.ru",
+    "phone": "+7 900 567 1234"
+  }
+}
